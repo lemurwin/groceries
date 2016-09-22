@@ -5,7 +5,7 @@ var GroceryList = React.createClass({
   render: function(){
     var groceryItems = this.props.data.map(function(groceries){
       return (
-        <Items item={groceries.item} key = {groceries.key} />
+        <Items item={groceries.item} key = {groceries.number} />
       );
     });
 
