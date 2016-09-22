@@ -1,0 +1,8 @@
+{
+  "groceries":{
+    "1": {
+      "type": "produce", "item": "tomatoes"},
+    "2": {
+      "type": "baking", "item": "cake mix"}
+  }
+}
